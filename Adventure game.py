@@ -1,5 +1,5 @@
 name=input('Enter Your name: ')
-print('Welcome')
+print('Welcome '+name)
 game=input('Wanna go on an adventure?(yes/no) ').lower()
 if game=='yes':
     question1=input('Choose a door:(A/B/C): ').lower()
